@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1000px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
